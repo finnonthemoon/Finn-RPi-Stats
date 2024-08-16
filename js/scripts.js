@@ -16,5 +16,5 @@ async function fetchStats() {
 
 window.onload = function () {
     fetchStats();
-    setInterval(fetchStats, 500);
+    setInterval(fetchStats, 300);
 }
